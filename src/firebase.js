@@ -3,12 +3,13 @@ import { getAuth } from "firebase/auth";
 import { getFirestore } from "firebase/firestore";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyCyhoM9bWvg6CSh4FOgTG_70h9vKzN4Px4",
-  authDomain: "oman-tourism-1b780.firebaseapp.com",
-  projectId: "oman-tourism-1b780",
-  storageBucket: "oman-tourism-1b780.firebasestorage.app",
-  messagingSenderId: "538925112614",
-  appId: "1:538925112614:web:8cca56c60083f433afb5e7"
+  apiKey: "AIzaSyDhiJlxxruZdx0z5jmtw1E6aSRTFT7hu8s",
+  authDomain: "oman-tourism-new.firebaseapp.com",
+  projectId: "oman-tourism-new",
+  storageBucket: "oman-tourism-new.firebasestorage.app",
+  messagingSenderId: "580317693824",
+  appId: "1:580317693824:web:b8b88fff7048f955ca6365",
+  measurementId: "G-N83D9GRMVC"
 };
 
 const app = initializeApp(firebaseConfig);
